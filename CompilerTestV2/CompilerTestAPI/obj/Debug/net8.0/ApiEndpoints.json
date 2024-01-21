@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "CompilerTestAPI.Controllers.CompilerController",
+    "Method": "CompileAndRun",
+    "RelativePath": "api/Compiler",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CompilerTestAPI.Controllers.CodeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
